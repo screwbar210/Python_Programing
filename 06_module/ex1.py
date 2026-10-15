@@ -76,14 +76,6 @@ print(d["headers"]["Host"])
 # 3. 사용자 정의 모듈 만들기
 # ===========================================================
 
-import mymath
-from mymath import PI, add
-
-print(mymath.PI)
-print(mymath.add(20, 30))
-
-print(PI)
-print(add(10, 20))
 
 # __pycache__ 디렉토리란?
 # Python이 실행 속도를 높이기 위해 컴파일된 바이트코드(.pyc)를 캐시로 저장하는 디렉터리
